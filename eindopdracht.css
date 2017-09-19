@@ -6,7 +6,7 @@
 
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  background-color: green;
+  background-color: black;
 }
 header {
   background-image:url('https://www.fbi.gov/image-repository/technology.jpg/@@images/image/high');
@@ -17,26 +17,22 @@ header {
 }
 
 ul {
-  background: #080808;
+  background: black;
   padding: 10px;
   text-align: center;
   margin: 0 auto 0 auto;
   width: 960px;
+  position: absolute;
 }
 
 ul li {
-  background: #787878;
+  background: white;
   padding: 5px;
-  border: solid 2px white;
+  border: solid 2px black;
   display: inline;
 }
 
-ul li a {
-  color: white;
-  text-decoration: none;
-  margin: 0 auto 0 auto;
-  width: 960px;
-}
+
 
 section {
   padding: 5px;
@@ -67,6 +63,6 @@ footer h3 {
   width: 960px;
 }
 
-ul{
-    position: absolute;
+.nu {
+  background-color: red;
 }
