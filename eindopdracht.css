@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+p{
+  padding: 5px;
+  margin: 5px;
+}
 
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -26,7 +30,7 @@ ul {
 }
 
 ul li {
-  background: white;
+  background: blue;
   padding: 5px;
   border: solid 2px black;
   display: inline;
@@ -65,4 +69,14 @@ footer h3 {
 
 .nu {
   background-color: red;
+  color: black;
+}
+
+h2{
+color: Blue;
+}
+
+a{
+ text-decoration: none;
+
 }
